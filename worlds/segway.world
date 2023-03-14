@@ -24,8 +24,9 @@
     </include>
  
     <include>
-      <uri>model://segway_double_head</uri>
+      <uri>model://segway_double_weight</uri> <!-- model에서 추가한 폴더명-->
       <pose frame=''>0 0 0.2 0 0 0</pose>
+      <plugin name="plugin" filename="libsegway_double.so"/> <!-- 여기를 추가 안해줬던거였음-->
     </include>
   </world>
 </sdf>
